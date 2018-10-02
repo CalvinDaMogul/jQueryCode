@@ -1,0 +1,1 @@
+This is an app that I'm using to practice jQuery code.
