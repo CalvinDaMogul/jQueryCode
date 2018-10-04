@@ -45,14 +45,19 @@
         <input type="Submit" value="Submit">
         <input type="text">
         <p class="para1"> Hi! My name is Calvin Foster and I am using this site to work on my Jquery skills.</p>
+        <hr>
+    
     </div>
 
     <script>
     // $('h1').hide();
-    $('#btn1').click(function(){alert('This button will hide the text!');
-    });
-    $('#btn1').on('click',function(){$('.para1').hide();})
-    $('#btn2').on('click',function(){$('.para1').show();})
+    // $('#btn1').click(function(){alert('This button will hide the text!');
+    // });
+    // $('#btn1').on('click',function(){$('.para1').hide();})
+    // $('#btn2').on('click',function(){$('.para1').show();})
+    $(document).ready(function(){
+        $('p.para1').css({color: 'red',background:'#ccc'});
+});
     </script>
 </body>
 </html>
