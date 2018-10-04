@@ -20,6 +20,10 @@
             border-bottom: 4px #000 solid;
             margin-bottom: 10px;
         }
+        .myClass {
+            color: blue;
+            background: black;
+        }
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
@@ -57,6 +61,8 @@
     // $('#btn2').on('click',function(){$('.para1').show();})
     $(document).ready(function(){
         $('p.para1').css({color: 'red',background:'#ccc'});
+        $('p.para2').addClass('myClass');
+        $('p.para2').removeClass('myClass');
 });
     </script>
 </body>
